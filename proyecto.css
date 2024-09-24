@@ -1,0 +1,735 @@
+*{
+  box-sizing: border-box;
+	 
+}
+
+@font-face {
+  font-family: 'OpenSans'; /* Nombre personalizado para la fuente */
+  src: url('Tipografi╠üa/OpenSans-Regular.ttf') format('ttf'), /* Si usas woff2 */
+       url('Tipografi╠üa/OpenSans-Bold.ttf') format('ttf');   /* Formato woff como respaldo */
+  font-weight: normal; /* Define el grosor */
+  font-style: normal;  /* Define el estilo */
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+   
+	 
+  font-family: 'OpenSans', sans-serif;
+	
+	font-weight: 810;
+	font-style: normal;
+	
+
+}
+
+
+
+li{
+  display: inline-block;
+  font-size: 24px;
+	list-style: none;
+	padding:  20px 20px;
+	color: #f5f0ed;
+	padding-top: 40px;
+}
+.navegacion{
+	float: right;
+
+}
+
+.cafe{
+	background-image: url(Ima╠ügenes/Logo.png);
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 30px;
+	position: relative;
+	left: 2%;
+	top: 20px;
+	
+	
+  
+} 
+.presentation{
+	background-image: url(Ima╠ügenes/Fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	height: 900px;
+}
+.presentation h1{ 
+	padding-left: 60px;
+	color: #f5f0ed;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	
+	color: #f5f0ed;
+	font-size: 48px;
+	margin: 0;
+	padding: 0px 40px;
+
+}
+.presentation span{
+	padding-top: 0;
+	display: inline-block;
+	margin-left: -20px;
+
+}
+
+.presentation p{
+	
+  position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 57%;
+	font-size: 15px;
+	color: #f5f0ed;
+	
+
+
+
+	
+}
+
+.caja1{
+	background-color: #d03b40;
+	width: 50%;
+	min-height: 412px;
+	float: left;
+}
+
+.caja1 h2{
+	font-size: 28px;
+	color:   #ded6c0;
+	padding: 15% 30%;
+	
+	
+	
+	
+	
+}
+
+.caja1 p{
+	font-size: 15px;
+	color: #ded6c0;
+	padding-left: 60%;
+	position: relative;
+	bottom: 100px;
+	right: 30%;
+	
+	
+	
+	
+	
+
+	
+}
+
+.caja1 span{
+	margin-left: 37%;
+}
+
+.caja2{
+	
+	background-color: #ded6c0;
+	width: 50%;
+	min-height: 412px;
+	float: right;
+}
+
+.caja2 h2{
+	font-size: 28px;
+	color: #d03b40;
+	padding: 15% 31%;
+	position: relative;
+	
+	float: right;
+
+	font-weight: 1000;
+	font-style: normal;
+	
+
+}
+
+.caja2 p span{
+	margin-left: 36%;
+}
+.caja2 h2 span{
+	margin-left: 15%;
+
+}
+
+.caja2 p{
+	font-size: 16px;
+	color: #d03b40;
+	padding-left: 55%;
+	position: relative;
+	bottom: 100px;
+	right: 25%;
+	
+	
+}
+
+
+.fondo2{
+	
+	width: 100%;
+	height: 800px; /* La altura será del tamaño de la pantalla */
+	background-image: url('Ima╠ügenes/Fondo2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; /* Contiene la imagen sin recortar ni distorsionar */
+	background-position: center; /* Centra la imagen */
+	overflow: hidden;
+	color: #f5f0ed;
+	
+}
+
+
+.fondo2 h1{
+
+	position:  relative;
+	top: 30%;
+	left: 39%;
+	font-size: 48px;
+	color: #f5f0ed;
+	font-weight: bold;
+}
+
+.fondo2 p{
+
+	position: relative;
+	right: 0%;
+	top: 40%;
+	padding-left: 40%;
+
+}
+.fondo2 em{
+	position: relative;
+	left: 45%;
+	top: 50%;
+	
+	display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid white; /* Borde blanco */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: white; /* Color del texto */
+  font-family: Arial, sans-serif; /* Fuente */
+  font-size: 16px;
+  background-color: transparent; /* Fondo transparente */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+
+
+}
+
+
+
+
+
+.cuadro1{
+	float: left;
+	background-image: url(Ima╠ügenes/Icono1.png);
+	height: 210px;
+	background-repeat: no-repeat;
+	background-position:  30px 30px;
+	position: relative;
+	left: 5%;
+
+}
+
+.cuadro1 h2{
+	font-size: 28px;
+	position: relative;
+	top: 10%;
+	left: 12%;
+}
+
+.cuadro1 p{
+	position: relative;
+	left: 12%;
+	top: 14%;
+	padding-right: 80%;
+  
+}
+
+.cuadro2{
+	float: left;
+	background-image: url(Ima╠ügenes/Icono2.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: 30px 60px;
+	position: relative;
+	left: 5%;
+
+
+}
+.cuadro2 h2{
+	font-size: 28px;
+	position: relative;
+	top: 19%;
+	left: 12%;
+
+	
+}
+
+.cuadro2 p{
+	position: relative;
+	left: 12%;
+	top: 23%;
+	padding-right: 80%;
+}
+ 
+.cuadro3{
+	
+	background-image: url(Ima╠ügenes/Icono3.png);
+	background-repeat: no-repeat;
+	height: 200px;
+	background-position:  65% 35%;
+	position: relative;
+	padding-top: 9px;
+	
+	
+}
+
+.cuadro3 h2{
+	font-size: 28px;
+	position: relative;
+	bottom: 260%;
+	left: 70%;
+
+}
+
+.cuadro3 p{
+	position: relative;
+	bottom: 255%;
+	right:  10%;
+	padding-left: 80%;
+}
+
+.cuadro4{
+
+	background-image: url(Ima╠ügenes/Icono4.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position:  65% 50%;
+	
+	padding-top: 10px;
+}
+
+.cuadro4 h2{
+	font-size: 28px;
+	position: relative;
+	left: 70%;
+	bottom: 88%;
+
+}
+
+.cuadro4 p{
+	position: relative;
+	bottom: 85%;
+	right:  10%;
+	padding-left: 80%;
+
+}
+
+.caja3{
+	width: 50%;
+	height: 400px;
+	background-color: #ded6c0;
+	float: left;
+	color:#d03b40
+}
+
+.caja3 h2{
+	font-size: 28px;
+	position: relative;
+	top: 25%;
+	left: 35%;
+	padding-right: 70%;
+	
+}
+
+.caja3 p{
+ position: relative;
+ top: 30%;
+ right: 20%;
+ padding-left: 40%;
+}
+.caja3 span{
+	margin-left: 30px;
+}
+.caja3 em{
+	position: relative;
+	left: 33%;
+	top: 45%;
+}
+.caja4{
+	width: 50%;
+	height: 400px;
+	background-color: #d03b40;
+	float: right;
+	overflow: hidden;
+	color: #ded6c0;
+	padding-left: -5%;
+}
+
+.caja4 h2{
+	font-size: 28px;
+	position: relative;
+  right:  30%;
+	top: 30%;
+	padding-left: 70%;
+	
+}
+
+.caja4 span{
+	margin-left: 9%;
+	
+}
+
+.caja4 p{
+	padding-left: 70%;
+	position: relative;
+	right: 34%;
+	top: 35%;
+
+
+}
+
+.caja4 em{
+	position: relative;
+	left: 43%;
+	top: 46%;
+}
+
+
+
+
+/* Estilo del contenedor del icono del menú */
+
+
+@media screen and (max-width: 600px) {
+  .presentation h1 {
+    font-size: 28px;
+    top: 10%;
+    left: 10%;
+    
+  }
+
+	.menu-icon span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		background-color: #FFF; /* Color de las líneas */
+		border-radius: 2px;
+		transition: all 0.3s ease; /* Para animaciones suaves */
+	}
+	
+
+	.navegacion{
+		display: none;
+	}
+
+	.despieglable{
+		display: block;
+		
+
+	}
+
+  .presentation{
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 500px; /* Cambia la altura para pantallas pequeñas */
+		
+		background-repeat: no-repeat;
+		
+	}
+
+	
+	.presentation p{
+		 display: inline;
+		 position: absolute;
+		 
+		 top: 20%;
+		 
+		
+		
+		
+
+	}
+  /* Asegura que las cajas se alineen verticalmente en lugar de horizontalmente */
+  .caja1, .caja2, .caja3, .caja4 {
+    width: 100%;
+    min-height: auto;
+    float: none;
+    padding: 0;
+		
+  }
+  .caja1 h2{
+		 padding-left: 5%;
+		 position: relative;
+		 left: 10%;
+	}
+
+
+	.caja1 p{
+		padding: 3%;
+		
+		position: relative;
+		overflow: hidden;
+		position: relative;
+		right: 2%;
+		padding-left: 5%;
+		top: -9vw;
+		
+ }
+ .caja2 h2{
+	padding-left: 0%;
+	position: relative;
+	right:  8%;
+	padding: 10% 3%;
+	height: 160px;
+
+
+	
+ }	
+
+ .caja2 p{
+	padding-left: 8%;
+	padding-right: 10%;
+	position: relative;
+	left: 3%;
+	top:   -9vw;
+	
+
+
+	}
+
+  /* Ajuste para el fondo y los íconos */
+
+	.fondo2{
+		background-size: cover;
+		background-position: center;
+
+	}
+  .fondo2 h1 {
+    font-size: 24px;
+    left: 25%;
+  }
+
+  .fondo2 p {
+    font-size: 14px;
+    padding-left: 5%;
+  }
+	
+	.fondo2 em{
+		position: relative;
+		left: 20%;
+		
+
+	}
+
+  
+
+  .cuadro1, .cuadro2, .cuadro3, .cuadro4 {
+    float: none;
+    overflow: none;
+    height: auto;
+    padding: 20px;
+		
+		
+  }
+	.cuadro1{
+		padding-top: 30%;
+		background-position: center;
+		background-position: top 10px left 52%;
+	} 
+  .cuadro1 h2{
+		position: relative;
+		top: 70px;
+		left: 0%;
+
+	}
+  
+	.cuadro1 p{
+		padding-right: 6%;
+		position: relative;
+		top: 90px;
+		left: 1%;
+		
+
+		
+		
+	}
+	
+	.cuadro2{
+		padding-top: 10%;
+		background-position: center;
+		background-position: top 100px left 52%;
+		
+	}
+
+	.cuadro2 h2{
+
+		position: relative;
+		top: 245px;
+		left: 5%;
+
+	}
+
+	.cuadro2 p{
+		padding-right: 6%;
+		position: relative;
+		top: 95px;
+		left: 3%;
+		margin-top: 45%;
+		
+		
+		
+	}
+
+	.cuadro3{
+		
+		padding-top: 42%;
+		background-position: center;
+		background-position: bottom 125px left 60%;
+		
+		
+	}
+	
+	.cuadro3 h2{
+		position: relative;
+		top: 140px;
+		left: 9%;
+		
+	}
+
+	.cuadro3 p{
+		
+		padding-right: 5%;
+		padding-left: 6%;
+		position: relative;
+		left: 2%;
+	  top: 150px;
+		
+	}
+
+	.cuadro4{
+		padding-top: 110%;
+		background-position: center;
+		background-position: top 170px left 60%;
+	} 
+	.cuadro4 h2{
+		position: relative;
+		left: 8%;
+	  top: -50px;
+	}
+
+	.cuadro4 p{
+		padding-left: 0%;
+		position: relative;
+		left: 2%;
+		top: -30px;
+		
+		
+	}
+
+	.caja3 h2{
+		overflow: hidden;
+		padding-right: 0%;
+		position: relative;
+		left: 20%;
+		
+	}
+
+	.caja3 p{
+		position: relative;
+		left: 1%;
+		padding-left: 10%;
+	}
+	.caja3 em{
+		position: relative;
+		left: 9%;
+	}
+
+	.caja4 h2{
+		overflow: hidden;
+		position: relative;
+		left: 18%;
+		padding-left: 0%;
+	}
+  
+	.caja4 p{
+		position: relative;
+		left: -15%;
+		padding-left: 40%;
+	}
+
+	.caja4 em{
+		position: relative;
+		left: 25%;
+	}
+
+	.desplieglable {
+		width: 40px;
+		height: 40px;
+		background-color: #D32F2F; /* Color de fondo del icono */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px;
+		border-radius: 5px; /* Bordes redondeados */
+	}
+	
+}
